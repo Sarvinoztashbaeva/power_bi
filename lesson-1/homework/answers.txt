@@ -1,0 +1,59 @@
+       1. What is Power BI, and what are its three main components?
+ Power BI is a tool from Microsoft that helps create interactive reports and dashboards using data.
+   The three main components are:
+Power BI Desktop – for creating reports on a computer
+Power BI Service – the online platform to share and view reports
+Power BI Mobile – the app to see dashboards on phones or tablets
+
+      2. Name two business use cases for Power BI dashboards.
+  Sales Tracking – to see daily or monthly sales performance
+  Customer Support – to monitor how fast support tickets are solved
+
+      3. How do you download and install Power BI Desktop?
+  You can download it from the Microsoft Store or from the official Power BI website. After downloading, just open the file and follow the install steps.
+
+      4. What is the difference between Power BI Desktop and Power BI Service?
+  Power BI Desktop is where you build the report. While Power BI Service is where you publish and share it online
+
+      5. What file extension does a Power BI project use?
+  It uses the .pbix file extension.
+
+      6. Explain the role of Power Query in Power BI.
+  Power Query is like a tool inside Power BI that helps you clean and prepare data before using it in reports.
+
+      7. Why would a business prefer Power BI over Excel for reporting?
+  Power BI is better for interactive visuals, handles big data more smoothly, and refreshes data automatically, unlike Excel where you do a lot manually.
+
+      8. Describe one limitation of the free version of Power BI.
+  You can’t share reports with others using Power BI Service unless you have a Pro license.
+
+      9. What is a "published report" in Power BI Service?
+  It’s a report you upload from Power BI Desktop to the Power BI online platform so that others in your team or company can view and use it.
+
+      10. How does Power BI Mobile enhance accessibility?
+  It lets you see your reports on your phone from anywhere, even when you’re not at your desk.
+
+      11. Compare Power BI with Tableau—pros and cons.
+  Power BI pros:
+Cheaper, especially for Microsoft users
+Easy if you're already using Excel
+  Cons:
+Fewer advanced visualization options compared to Tableau
+  Tableau pros:
+More powerful visuals
+Handles more complex dashboards
+  Cons:
+More expensive
+Takes longer to learn
+
+      12. Explain how Power BI integrates with Azure services.
+  It can connect with Azure stuff like Azure SQL Database and Azure Data Lake to pull data automatically.
+
+      13. What are "gateways" in Power BI, and when are they needed?
+Gateways are like bridges that connect your local data (on-premises) to the Power BI Service. You need them when your data is not in the cloud but on your company’s server.
+
+      14. How would you convince a company to adopt Power BI? (ROI argument)
+I’d say Power BI helps save time and gives better insights. You don’t need to spend hours making Excel reports – it refreshes data automatically and helps make faster decisions, which means saving money in the long run.
+
+      15. What security features does Power BI offer for sensitive data?
+There’s row-level security (only lets people see data they’re allowed to), encryption, and Microsoft security features since Power BI is part of the Microsoft ecosystem.
