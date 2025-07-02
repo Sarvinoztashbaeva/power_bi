@@ -1,0 +1,45 @@
+        1. List three data sources Power BI can connect to.
+ Excel files
+ SQL Server databases
+ SharePoint lists
+
+        2. What is the first step to import data into Power BI Desktop?
+ Click “Get Data” on the Home tab, then choose your data source.
+
+        3. How do you refresh imported data in Power BI?
+ Click the “Refresh” button on the Home tab. It pulls in the latest data from the source.
+
+        4. What file formats can Power BI import directly? (Name two.)
+ .xlsx (Excel)
+ .csv (Comma-separated values)
+
+        5. What does the "Navigator" window show after selecting a data source?
+ It shows the tables or sheets in the file or database, and a preview of the data inside them.
+
+        7. How would you change OrderDate to a date format during import?
+ In Power Query, select the OrderDate column → go to the top menu and choose Data Type → Date.
+
+        8. What is the difference between "Load" and "Transform Data" in the import dialog?
+ Load: imports the data as it is
+ Transform Data: opens Power Query so you can clean or change the data before loading it
+
+        9. Why might you see an error when connecting to a SQL database? (Name one reason.)
+ If you don’t have permission or if the server name is wrong, you’ll get an error.
+
+        10. How do you replace a data source after importing it?
+ Go to Transform Data, then to Data Source Settings, then click Change Source and pick the new file or database.
+
+       11. Write the M-code to import only rows where Quantity > 1.
+ = Table.SelectRows(Source, each [Quantity] > 1)
+          
+        12. How would you change the data source if Sales_Data.csv changed?
+ Go to Transform Data → Data Source Settings, find the file, and click Change Source to pick the updated CSV.
+
+        13. Troubleshoot: Your CSV import fails due to a "mixed data type" error—how do you fix it?
+ In Power Query, change the column’s data type manually, or remove rows that have incorrect values.
+
+        14. Connect to a live SQL database with parameters (e.g., filter by year).
+ In Power Query, create a parameter for the year → use it in a SQL query or a filter step to limit data to just that year.
+
+        15. How would you automate data imports using Power BI and Power Automate?
+ You can use Power Automate to trigger a data refresh in Power BI, for example, every day or after a file is updated.
