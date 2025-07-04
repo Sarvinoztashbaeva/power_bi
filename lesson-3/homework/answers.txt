@@ -1,0 +1,21 @@
+   What is the purpose of the "Applied Steps" pane in Power Query?
+It shows a list of changes (steps) you’ve made to your data — like renaming columns, filtering, or removing rows — so you can see or undo any step if needed.
+
+   How do you remove duplicate rows in Power Query?
+Select the columns you want to check → go to the Home tab → click “Remove Duplicates.”
+
+   What does the "Filter" icon do in Power Query?
+It lets you choose which rows to keep by filtering values — like showing only “2023” or hiding blank rows.
+
+   How would you rename a column from "CustID" to "CustomerID"?
+Right-click on the CustID column name → click Rename → type CustomerID.
+
+   What happens if you click "Close & Apply" in Power Query?
+It saves your changes and loads the cleaned data into Power BI Desktop so you can use it in your report.
+
+   How would you handle null values in the Price column?
+In Power Query:
+Click the Price column
+Go to Transform tab
+Choose Replace Values
+Replace null with 0 (or another default), or use Remove Rows → Remove Blank Rows if you don’t want them at all
