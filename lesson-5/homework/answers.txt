@@ -1,0 +1,20 @@
+    1. What is a primary key in a table?
+It’s a column that has unique values for each row. It helps to identify each row in a table.
+
+    2. Name the two types of table relationships in Power BI.
+One-to-many, many-to-many
+
+    3. How do you create a relationship between two tables in Power BI?
+Go to the Model view, drag a column from one table to a matching column in another table.
+
+    4. What is a "star schema"?
+It’s a way to organize tables where one main table (like sales) is in the middle and is connected to other smaller tables (like products, customers). The shape looks like a star.
+
+    5. Which table is typically the fact table in a sales dataset?
+The Sales table because it has numbers like quantity, price, and transactions.
+
+    6. Explain why a star schema improves performance.
+Because it’s simple and clear. Power BI can read and filter data faster when the relationships are one-to-many and not too complex.
+
+    7. Use bidirectional filtering sparingly—when is it appropriate?
+Only when both tables need to filter each other. Like in reporting where filters need to go both ways. But usually one direction is better.
