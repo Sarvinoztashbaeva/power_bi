@@ -1,0 +1,17 @@
+    1. Name three types of visuals you can create in Power BI.
+Bar Chart
+Pie Chart
+Line Chart
+
+    2. How do you add a slicer to a report?
+On the report page, go to the Visualizations pane and click the slicer icon (it looks like a filter). Then drag a field into it.
+
+    3. What is the difference between a bar chart and a column chart?
+A bar chart shows horizontal bars (sideways), and a column chart shows vertical bars (up and down).
+
+    4. How do you change the color of a visual background?
+Click on the visual, then go to the Format (paint roller) icon. Open Visual > Background and turn it on, then choose a color.
+
+    5. What does "drill-down" mean in a visual?
+It means you can click into a chart to see more detailed levels of the data — like from year → to month → to day. You can click the arrow icons on the top of the visual to go deeper or back up.
+
