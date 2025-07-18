@@ -1,0 +1,21 @@
+    1. What does DAX stand for?
+  DAX = Data Analysis Expressions
+
+    2. What is the difference between a calculated column and a measure?
+  Calculated Column:
+      Row by row (adds new column)	
+      Stored in memory
+      Filter, slicer, group-by
+  Measure:
+      Aggregated over entire context
+      Not stored in memory
+      KPI, visuals, aggregations
+
+    3. What does COUNTROWS() do in DAX?
+  It counts the number of rows in a table.
+
+    4. What is a circular dependency error in a calculated column?
+  It happens when a calculated column depends on itself directly or indirectly. Example: Column A refers to Column B, and B refers back to A.
+
+    5. Explain row context vs. filter context.
+  Row context	evaluates each row separately (in columns). Filter context applies filters from visuals or slicers
