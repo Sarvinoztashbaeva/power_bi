@@ -1,0 +1,19 @@
+Calendar table = 
+VAR ReferenceDate = CALCULATE(MAX(Sales[SaleDate]), ALL(Sales))
+RETURN
+ADDCOLUMNS(
+    CALENDAR(ReferenceDate - 7, ReferenceDate + 7),
+    "Day name(EN)", FORMAT([Date], "dddd"),
+    "DAy name(UZ)", FORMAT([Date], "dddd", "uz"),
+    "Year", YEAR([Date]),
+    "Month", FORMAT([Date], "mmmm"),
+    "Day", DAY([Date]),
+    "Fiscal Quarter",
+        SWITCH(
+            TRUE(),
+            MONTH([Date]) >= 10, "Q1",
+            MONTH([Date]) >= 7, "Q4",
+            MONTH([Date]) >= 4, "Q3",
+            MONTH([Date]) >= 1, "Q2"
+        )
+) 
